@@ -6,5 +6,5 @@ void encryp(char* , int N)
 
 int main(void)
 {
-    printf("hello, world\n");
+    printf("hello, world\n"); // stuff
 }
