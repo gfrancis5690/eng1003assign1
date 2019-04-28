@@ -25,8 +25,7 @@ char encryprot (char *input, int k, long int stringlength) //encrypt function na
        for (i = 0; i < stringlength; i++) //user will press a letter, computer will count
            {
            //convert if lower case to upper case
-            if (input[i]) > 96 && input[i]<123){
-                printf("input is LC: %c\n", input[i]); //test
+            if (input[i]) > 96 && input[i]<123
                 input[i]=input[i]-32; //converts to upper case ascii
                 printf("converted to UC: %c\n", input[i]);
                 }
