@@ -2,8 +2,6 @@
 
 #include<stdio.h>
 char encryprot (char *input, int k, long int stringlength); //encrypt function prototype
-//char dencryprot (char *input, int k, long int stringlength); //dencrypt function prototype
-
 
 int main()
 {
